@@ -1,0 +1,47 @@
+
+[filter "lfs"]
+        clean = git-lfs clean -- %f
+        smudge = git-lfs smudge -- %f
+        process = git-lfs filter-process
+        required = true
+[user]
+        name = Sabir777
+        email = sabir.yanin2014@yandex.ru
+[core]
+        #editor = nano
+        quotepath = false
+[alias]
+        alias = !git config --edit --global
+        s = status
+        a = !git add . && git status
+        acm  = !git add . && git commit -m
+        c    = commit
+        ca   = commit --amend
+        cm   = commit -m
+        empty = commit --allow-empty -m 'Initial commit'
+        d    = diff
+    dc   = diff --cached
+        rh   = reset HEAD
+    rha  = reset --hard
+    rhh  = reset --hard HEAD
+        l    = log --graph --all --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset'
+    lg   = log --color --graph --pretty=format:'%C(bold white)%h%Creset -%C(bold green)%d%Creset %s %C(bold green)(%cr)%Creset %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+    ll   = log --stat --abbrev-commit
+    llg  = log --color --graph --pretty=format:'%C(bold white)%H %d%Creset%n%s%n%+b%C(bold blue)%an <%ae>%Creset %C(bold green)%cr (%ci)' --abbrev-commit
+        graph = log --all --graph --oneline --decorate --color
+        #lg = log --pretty=format:'%h — %ar: %s'
+        co   = checkout
+    com  = checkout master
+    cob  = checkout -b
+    cod  = checkout development
+    b    = branch
+    bd   = branch -D
+    p    = pull
+    po   = pull origin
+    pom  = pull origin master
+    pr   = pull --rebase
+    pro  = pull --rebase origin
+    prod = pull --rebase origin development
+    ps   = push
+    pu   = push -u
+    puo  = push -u origin
