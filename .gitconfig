@@ -1,0 +1,19 @@
+[user]
+	name = Sabir777
+	email = sabir.yanin2014@yandex.ru
+[core]
+	editor = vim
+[alias]
+    alias = !git config --edit --global
+	g = log --all --graph --oneline --decorate --color
+    c = commit
+	adc = !git add . && git commit
+    ca = commit -a
+    amend = commit --amend
+    s = status
+    rhh  = reset --hard HEAD
+    co   = checkout
+    com  = checkout master
+    cob  = checkout -b
+    b    = branch
+    puo  = push -u origin
