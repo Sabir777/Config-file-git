@@ -24,4 +24,4 @@
     cob  = checkout -b
     b    = branch
     puo  = push -u origin
-
+    pa = push origin --all
