@@ -23,5 +23,8 @@
     com  = checkout master
     cob  = checkout -b
     b    = branch
+    bd   = branch -D
+    bf   = branch -f
     puo  = push -u origin
     pa = push origin --all
+    
