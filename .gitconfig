@@ -1,15 +1,9 @@
-
 [user]
 	name = Sabir777
 	email = sabir.yanin2014@yandex.ru
 [core]
 	editor = vim
     quotepath = false
-[url "ssh://git@github.com/"]
-        insteadOf = https://github.com/
-[safe]
-	directory = /storage/emulated/0/c++
-	directory = /storage/emulated/0/python/baker
 [alias]
     alias = !git config --edit --global
 	g = log --all --graph --oneline --decorate --color
@@ -23,5 +17,8 @@
     com  = checkout master
     cob  = checkout -b
     b    = branch
+    bd   = branch -D
+    bf   = branch -f
     puo  = push -u origin
     pa = push origin --all
+    
