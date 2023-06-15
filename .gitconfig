@@ -26,9 +26,10 @@
     b    = branch
     bd   = branch -D
     bf   = branch -f
-    p    = pull
+    pl   = pull
+    pla  = pull --all
     ps   = push
     puo  = push -u origin
-    pa   = push origin --all
-    pf   = push --force-with-lease
+    psa   = push origin --all
+    psf   = push --force-with-lease
     track = checkout --track
