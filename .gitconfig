@@ -1,4 +1,3 @@
-
 [user]
 	name = Sabir777
 	email = sabir.yanin2014@yandex.ru
@@ -12,12 +11,12 @@
 	directory = /storage/emulated/0/python/baker
 [alias]
     alias = !git config --edit --global
-	g = log --all --graph --oneline --decorate --color
-    c = commit
-	adc = !git add . && git commit
-    ca = commit -a
+	g    = log --all --graph --oneline --decorate --color
+    c    = commit
+	adc  = !git add . && git commit
+    ca   = commit -a
     amend = commit --amend
-    s = status
+    s    = status
     rhh  = reset --hard HEAD
     co   = checkout
     com  = checkout master
@@ -25,6 +24,9 @@
     b    = branch
     bd   = branch -D
     bf   = branch -f
+    p    = pull
+    ps   = push
     puo  = push -u origin
-    pa = push origin --all
-    
+    pa   = push origin --all
+    pf   = push --force-with-lease
+    track = checkout --track
