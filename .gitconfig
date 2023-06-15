@@ -21,4 +21,4 @@
     bf   = branch -f
     puo  = push -u origin
     pa = push origin --all
-    
+    track = checkout --track
