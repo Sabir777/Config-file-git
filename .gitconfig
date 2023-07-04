@@ -12,7 +12,7 @@
     c    = commit
 	adc  = !git add . && git commit
     ca   = commit -a
-    amend = commit --amend
+    amend = !git add . && git commit --amend
     s    = status
     rhh  = reset --hard HEAD
     co   = checkout
@@ -29,3 +29,5 @@
     psf   = push --force-with-lease
     delete = push --delete origin
     track = checkout --track
+    fpr = fetch --prune
+
