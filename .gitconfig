@@ -16,7 +16,7 @@
 	s    = status
 	rhh  = reset --hard HEAD
 	co   = checkout
-	com  = checkout master
+	com  = checkout main
 	cob  = checkout -b
 	b    = branch
 	bd   = branch -D
