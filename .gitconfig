@@ -33,3 +33,4 @@
 	track = checkout --track
 	fpr = fetch --prune
   spl = pull --recurse-submodules=on-demand
+  sur = submodule update --remote
