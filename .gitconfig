@@ -6,13 +6,6 @@
 	editor = vim
 	quotepath = false
 
-[submodule]
-	recurse = true
-
-[branch "main"]
-	remote = origin
-	merge = main
-
 [alias]
 	alias = !git config --edit --global
 	d    = diff
@@ -39,4 +32,4 @@
 	del = push --delete origin
 	track = checkout --track
 	fpr = fetch --prune
-
+  spl = submodule update --recursive --remote
