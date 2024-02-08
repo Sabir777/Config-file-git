@@ -9,6 +9,10 @@
 [submodule]
 	recurse = true
 
+[branch "main"]
+	remote = origin
+	merge = main
+
 [alias]
 	alias = !git config --edit --global
 	d    = diff
