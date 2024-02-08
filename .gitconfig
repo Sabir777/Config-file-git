@@ -32,4 +32,4 @@
 	delete = push --delete origin
 	track = checkout --track
 	fpr = fetch --prune
-  spl = git pull --recurse-submodules
+  spl = pull --recurse-submodules
