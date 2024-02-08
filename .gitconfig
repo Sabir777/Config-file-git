@@ -32,4 +32,4 @@
 	del = push --delete origin
 	track = checkout --track
 	fpr = fetch --prune
-  spl = submodule update --recursive --remote
+  spl = git pull --recurse-submodules
