@@ -29,7 +29,7 @@
 	puo  = push -u origin
 	psa   = push origin --all
 	psf   = push --force-with-lease
-	del = push --delete origin
+	delete = push --delete origin
 	track = checkout --track
 	fpr = fetch --prune
   spl = git pull --recurse-submodules
