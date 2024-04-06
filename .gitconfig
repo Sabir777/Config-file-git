@@ -1,38 +1,42 @@
 [user]
-	name = Sabir777
-	email = sabir.yanin2014@yandex.ru
-[core]
-	editor = vim
-    quotepath = false
-[url "ssh://git@github.com/"]
-        insteadOf = https://github.com/
-[safe]
-	directory = /storage/emulated/0/c++
-	directory = /storage/emulated/0/python/baker
-[alias]
-    alias = !git config --edit --global
-    d    = diff
-    dc   = diff --cached
-	g    = log --all --graph --oneline --decorate --color
-    c    = commit
-	adc  = !git add . && git commit
-    ca   = commit -a
-    amend = !git add . && git commit --amend
-    s    = status
-    rhh  = reset --hard HEAD
-    co   = checkout
-    com  = checkout master
-    cob  = checkout -b
-    b    = branch
-    bd   = branch -D
-    bf   = branch -f
-    pl   = pull
-    pla  = pull --all
-    ps   = push
-    puo  = push -u origin
-    psa   = push origin --all
-    psf   = push --force-with-lease
-    delete = push --delete origin
-    track = checkout --track
-    fpr = fetch --prune
+  name = Sabir777
+  email = sabir.yanin2014@yandex.ru
 
+[core]
+  editor = vim
+  quotepath = false
+
+[safe]
+  directory = /storage/emulated/0/termux_shared/Pictures
+
+[init]
+  defaultBranch = main
+
+[alias]
+  alias = !git config --edit --global
+  d    = diff
+  dc   = diff --cached
+  g    = log --all --graph --oneline --decorate --color
+  c    = commit
+  adc  = !git add . && git commit
+  ca   = commit -a
+  amend = !git add . && git commit --amend
+  s    = status
+  rhh  = reset --hard HEAD
+  co   = checkout
+  com  = checkout main
+  cob  = checkout -b
+  b    = branch
+  bd   = branch -D
+  bf   = branch -f
+  pl   = pull
+  pla  = pull --all
+  ps   = push
+  puo  = push -u origin
+  psa   = push origin --all
+  psf   = push --force-with-lease
+  delete = push --delete origin
+  track = checkout --track
+  fpr = fetch --prune
+  sur = submodule update --remote --recursive
+  ls = ls-tree -r --name-only main
