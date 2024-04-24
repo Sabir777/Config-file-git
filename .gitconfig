@@ -10,6 +10,7 @@
 	alias = !git config --edit --global
 	d    = diff
 	dc   = diff --cached
+	dp   = diff HEAD^ HEAD
 	g    = log --all --graph --oneline --decorate --color
 	c    = commit
 	adc  = !git add . && git commit
