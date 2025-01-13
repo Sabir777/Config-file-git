@@ -39,5 +39,5 @@
 	delete = push --delete origin
 	track = checkout --track
 	fpr = fetch --prune
-	sur = submodule update --remote --recursive
+	sur = submodule update --remote --init --recursive
 	ls = ls-tree -r --name-only main
