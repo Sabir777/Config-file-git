@@ -35,3 +35,4 @@
 	fpr = fetch --prune
 	sur = submodule update --remote --init --recursive
 	ls = ls-tree -r --name-only main
+  pwd = remote -v
