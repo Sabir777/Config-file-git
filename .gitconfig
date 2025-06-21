@@ -7,6 +7,7 @@
 	quotepath = false
 
 [safe]
+	directory = /storage/emulated/0/termux-shared/Pictures
 	directory = /storage/emulated/0/termux_shared/Pictures
 
 [init]
@@ -29,6 +30,7 @@
 	cob  = checkout -b
 	b    = branch
 	bd   = branch -D
+	br   = branch -r
 	bf   = branch -f
 	pl   = pull
 	pla  = pull --all
