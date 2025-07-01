@@ -6,6 +6,9 @@
 	editor = vim
 	quotepath = false
 
+[init]
+	defaultBranch = main
+
 [alias]
 	alias = !git config --edit --global
 	d    = diff
