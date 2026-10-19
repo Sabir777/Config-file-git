@@ -23,6 +23,7 @@
 	rhh  = reset --hard HEAD
 	co   = checkout
 	com  = checkout main
+  coh  = checkout HEAD --
 	cob  = checkout -b
 	b    = branch
 	bd   = branch -D
